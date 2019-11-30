@@ -163,6 +163,10 @@ header .contenedor-texto .texto .profesion{
 	margin-bottom: 40px;
 }
 
+.main .trabajos .contenedor-trabajos .trabajo a	{
+	text-decoration: none;
+}
+
 .main .trabajos .contenedor-trabajos .trabajo .thumb{
 	width: 100%;
 	margin-bottom: 10px;
