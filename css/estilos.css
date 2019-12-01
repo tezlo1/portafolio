@@ -27,8 +27,12 @@ body{
 /*---- ---- HEADER ---- ---- */
 
 header{
+<<<<<<< HEAD
 	background: url("imagenes/fondo-2.jpg");
 	background: url("../imagenes/");
+=======
+	background: url('../imagenes/fondo-2.jpg');
+>>>>>>> 496cbdf4edb7df5accd606ddb38498725736baaf
 	background-repeat: no-repeat;
 	background-position: center;
 	max-height: 600px;
@@ -266,7 +270,7 @@ footer .lenguajes-programacion{
 	padding: 60px 0;
 }
 
-footer .lenguajes_programacion a{
+footer .lenguajes-programacion a{
 	color: #fff;
 	text-align: center;
 	width: 100px;
@@ -277,17 +281,17 @@ footer .lenguajes_programacion a{
 	margin: 0 20px;
 }
 
-footer .lenguajes_programacion .contenedor{
+footer .lenguajes-programacion .contenedor{
 	display: flex;
 	justify-content: center;
 }
 
 /*footer .redes-sociales .twiter:hover{background: #1da1f2; }*/
-footer .lenguajes_programacion .html:hover{color: #e34f26; }
-footer .lenguajes_programacion .css:hover{color: #1572b7; }
-footer .lenguajes_programacion .javascript:hover{color: #f7df1e; }
-footer .lenguajes_programacion .php:hover{color: #8892be; }
-footer .lenguajes_programacion .git:hover{color: #c9510c; }
+footer .lenguajes-programacion .html:hover{color: #e34f26; }
+footer .lenguajes-programacion .css:hover{color: #1572b7; }
+footer .lenguajes-programacion .javascript:hover{color: #f7df1e; }
+footer .lenguajes-programacion .php:hover{color: #8892be; }
+footer .lenguajes-programacion .git:hover{color: #c9510c; }
 
 
 /* ---- ---- MEDIA QUERIES ---- ---- */
