@@ -27,7 +27,7 @@ body{
 /*---- ---- HEADER ---- ---- */
 
 header{
-	background: url('../imagenes/fondo-2.jpg');
+	background: url('imagenes/fondo-2.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	max-height: 600px;
@@ -260,32 +260,33 @@ footer .contacto .formulario input[type="submit"]:hover {
 	background: #387bea;
 }
 
-footer .redes-sociales{
+footer .lenguajes_programacion{
 	background: #1e2b38;
 	padding: 60px 0;
 }
 
-footer .redes-sociales a{
+footer .lenguajes_programacion a{
 	color: #fff;
 	text-align: center;
 	width: 100px;
 	display: block;
 	padding: 15px 0;
 	border-radius: 3px;
-	font-size: 30px;
+	font-size: 60px;
 	margin: 0 20px;
 }
 
-footer .redes-sociales .contenedor{
+footer .lenguajes_programacion .contenedor{
 	display: flex;
 	justify-content: center;
 }
 
 /*footer .redes-sociales .twiter:hover{background: #1da1f2; }*/
-footer .redes-sociales .twiter:hover{color: #1da1f2; }
-footer .redes-sociales .youtube:hover{color: #ff0000; }
-footer .redes-sociales .facebook:hover{background: #3b5998; }
-footer .redes-sociales .instagram:hover{background: #f56040; }
+footer .lenguajes_programacion .html:hover{color: #e34f26; }
+footer .lenguajes_programacion .css:hover{color: #1572b7; }
+footer .lenguajes_programacion .javascript:hover{color: #f7df1e; }
+footer .lenguajes_programacion .php:hover{color: #8892be; }
+footer .lenguajes_programacion .git:hover{color: #c9510c; }
 
 
 /* ---- ---- MEDIA QUERIES ---- ---- */
