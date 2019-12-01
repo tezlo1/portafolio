@@ -27,7 +27,8 @@ body{
 /*---- ---- HEADER ---- ---- */
 
 header{
-	background: url('imagenes/fondo-2.jpg');
+	background: url("imagenes/fondo-2.jpg");
+	background: url("../imagenes/");
 	background-repeat: no-repeat;
 	background-position: center;
 	max-height: 600px;
@@ -260,7 +261,7 @@ footer .contacto .formulario input[type="submit"]:hover {
 	background: #387bea;
 }
 
-footer .lenguajes_programacion{
+footer .lenguajes-programacion{
 	background: #1e2b38;
 	padding: 60px 0;
 }
