@@ -197,6 +197,11 @@ header .contenedor-texto .texto .profesion{
 
 
 /* ----  ---- FOOTER ----  ---- */
+footer .lenguajes-programacion{
+	background: #ffffff;
+	padding: 60px 0;
+}
+
 footer .lenguajes-programacion .titulo{
 	font-size: 34px;
 	line-height: 34px;
@@ -206,9 +211,11 @@ footer .lenguajes-programacion .titulo{
 	text-align: center;
 }
 
-footer .lenguajes-programacion{
-	background: #ffffff;
-	padding: 60px 0;
+
+footer .lenguajes-programacion .contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 footer .lenguajes-programacion a{
@@ -220,11 +227,6 @@ footer .lenguajes-programacion a{
 	border-radius: 3px;
 	font-size: 60px;
 	margin: 0 20px;
-}
-
-footer .lenguajes-programacion .contenedor{
-	display: flex;
-	justify-content: center;
 }
 
 /*footer .redes-sociales .twiter:hover{background: #1da1f2; }*/
@@ -252,10 +254,11 @@ footer .contacto .contenedor{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 footer .contacto .contenedor .icono{
-	width: 50%;
+	width: 400px;
 	text-align: center;
 }
 
@@ -281,10 +284,8 @@ footer .contacto .contenedor .icono p{
 }
 
 @media screen and (max-width: 500px) {
-	header .menu{
-	margin: 15px 0;
 	
-}
+	header .menu{margin: 15px 0;}
 	header .contenedor-texto{margin: 100px 0;}
 
 	header .contenedor-texto .texto .nombre{
@@ -294,10 +295,9 @@ footer .contacto .contenedor .icono p{
 	font-size: 18px;
 	}
 
-	footer .redes-sociales .contenedor{
-		flex-wrap: wrap;
-		padding: 20px 0;
-
+	footer .contacto .contenedor .icono p{
+		font-size: 23px;
 	}
+
 
 }
